@@ -1,0 +1,15 @@
+Package: BEAT
+Type: Package
+Version: 0.99.1
+Title: BEAT - BS-Seq Epimutation Analysis Toolkit
+Date: 2013-05-15
+Maintainer: Kemal Akman <akmank@mpipz.mpg.de>
+Author: Kemal Akman <akmank@mpipz.mpg.de>
+Depends: R (>= 2.13.0)
+Imports: GenomicRanges, ShortRead, Biostrings, BSgenome, IRanges,
+        goseq, GO.db
+biocViews: Bioinformatics, Genetics, Sequencing, Software
+Description: Model-based analysis of single-cell methylation data
+License: LGPL (>= 3.0)
+Packaged: 2013-10-01 17:44:07 UTC; akman
+Repository: Bioconductor

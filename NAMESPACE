@@ -1,0 +1,4 @@
+export(makeParams)
+export(positions_to_regions)
+export(generate_results)
+export(epimutation_calls)
