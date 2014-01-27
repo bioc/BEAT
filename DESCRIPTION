@@ -1,10 +1,10 @@
 Package: BEAT
 Type: Package
-Version: 0.99.1
+Version: 0.99.2
 Title: BEAT - BS-Seq Epimutation Analysis Toolkit
 Date: 2013-05-15
-Maintainer: Kemal Akman <akmank@mpipz.mpg.de>
-Author: Kemal Akman <akmank@mpipz.mpg.de>
+Maintainer: Kemal Akman <akman@mpipz.mpg.de>
+Author: Kemal Akman <akman@mpipz.mpg.de>
 Depends: R (>= 2.13.0)
 Imports: GenomicRanges, ShortRead, Biostrings, BSgenome, IRanges,
         goseq, GO.db
