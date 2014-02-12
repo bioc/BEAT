@@ -2,3 +2,9 @@ export(makeParams)
 export(positions_to_regions)
 export(generate_results)
 export(epimutation_calls)
+
+import(GenomicRanges)
+import(ShortRead)
+import(Biostrings)
+import(BSgenome)
+
