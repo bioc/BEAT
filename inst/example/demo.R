@@ -1,6 +1,6 @@
 library(BEAT)
 localpath = system.file('example', package = 'BEAT')
-positions = read.csv(paste(localpath, "/", "singlecell.positions.csv", sep=""))
+positions = read.csv(paste(localpath, "/", "sample.positions.csv", sep=""))
 head(positions)
 
 sampNames <- c('reference','singlecell')
@@ -12,12 +12,9 @@ convrates <- c(0.8,0.5)
 params = makeParams(localpath, sampNames, convrates, is.reference, pminus = 0.2, regionSize = 10000, minCounts = 5, verbose = TRUE, computeRegions = TRUE, computeMatrices = TRUE, writeEpicallMatrix = TRUE)
 params
 
-regions <- positions_to_regions(params)
-head(regions[[1]])
+positions_to_regions(params)
 
-results <- generate_results(params)
-class(results)
-head(results[[1]])
+generate_results(params)
 
 epiCalls <- epimutation_calls(params)
 head(epiCalls$methSites$singlecell,3)
